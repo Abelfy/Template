@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+body,
+html {
+    height: 100%;
+}
+
+.dataTables_empty {
+    display: none;
+}
+
+.button-width {
+    width: 170px;
+}
+
+.border-radius-trente {
+    border-radius: 30px;
+}
+
+.border-radius-cinquante-percents {
+    border-radius: 50%;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.button-add {
+    right: 10px;
+    position: absolute;
+}
+
+.padding-zero {
+    padding: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.height-cent {
+    height: 100px;
+}
+
+.font-size-vingt-deux {
+    font-size: 22px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

@@ -1,0 +1,10 @@
+{
+  "env": "dev",
+  "db": {
+    "host": "localhost",
+    "port": 3306,
+    "name": "idcare",
+    "user": "idcare",
+    "pwd": "ViperSRT10"
+  }
+}

@@ -1,0 +1,28 @@
+<div class="container">
+    <mat-card class="login">
+        <mat-card-header>
+            <mat-card-title>Authentification</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+            <form *ngIf="loginForm" [formGroup]="loginForm" novalidate (ngSubmit)="login()">
+                <div class="row">
+                    <div class="col">
+                        <mat-form-field class="full-width">
+                            <input name="email" id="email" type="text" placeholder="E-mail" matInput formControlName="email">
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <mat-form-field>
+                            <input name="password" id="password" type="password" placeholder="Password" formControlName="password" matInput (keydown.enter)="login()">
+                        </mat-form-field>
+                    </div>
+                </div>
+            </form>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button color="accent" (click)="login()">Login</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

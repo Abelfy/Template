@@ -1,0 +1,18 @@
+<div mdbModal #choixCompte="mdbModal" class="modal fade" id="basicExample" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title w-100" id="myModalLabel">Choix du compte à ouvrir</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="modalChoixCompte.hide()">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-footer">
+
+                <div class="" *ngFor ="let item of type">
+                  <button type="button" mdbBtn color="primary" size="sm" class="waves-light" mdbWavesEffect (click)="choixCompte2(item)">{{item}}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+.bg {
+    background-image: url('../../../assets/fond.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.margin-top-dix-pourcents {
+    margin-top: 10%;
+}
+
+#mdp-oublie {
+    color: blue;
+    cursor: pointer;
+}
+
+.container {
+    margin: 1em;
+}
